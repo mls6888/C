@@ -50,7 +50,7 @@ int main(void) {
  
  
  
- printf("Your lett grade for CMPSC 131 is %s",letter);
+ printf("Your letter grade for CMPSC 131 is %s",letter);
  return 0;
 
 
