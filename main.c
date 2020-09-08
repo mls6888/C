@@ -3,7 +3,7 @@
 // Collaborator: Marvin Jakobs mjk5388@psu.edu
 // Collaborator: Fletcher Henneman fdh5031@psu.edu 
 // Collaborator: Brian Chetle bjc5969@psu.edu
-//  
+//  Breakout11
 
 
 
@@ -43,7 +43,7 @@ int main(void) {
   else if (grade >= 60.0 ) {
  letter = "D";
  }   
-  else if (grade >= 90.0 ) {
+  else if (grade < 60.0 ) {
  letter = "F";
  }  
  
