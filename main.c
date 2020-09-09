@@ -16,7 +16,7 @@
 int main(void) {
 
  char *letter = "F";
- char *a = readline("Enter your CMPSC 131 grade:");
+ char *a = readline("Enter your CMPSC 131 grade: ");
  double grade = atof(a);
  if (grade >= 93.0 ) {
  letter = "A";
@@ -50,7 +50,7 @@ int main(void) {
  
  
  
- printf("Your letter grade for CMPSC 131 is %s .",letter);
+ printf("Your letter grade for CMPSC 131 is %s.",letter);
  return 0;
 
 
