@@ -18,32 +18,32 @@ int main(void) {
  char *letter = "F";
  char *a = readline("Enter your CMPSC 131 grade: ");
  double grade = atof(a);
- if (grade >= 93.0 ) {
+ if (grade >= 93.0) {
  letter = "A";
   }
  
- else if (grade >= 90.0 ) {
+ else if (grade >= 90.0) {
  letter = "A-";
  }  
-  else if (grade >= 87.0 ) {
+  else if (grade >= 87.0) {
  letter = "B+";
  }  
-  else if (grade >= 83.0 ) {
+  else if (grade >= 83.0) {
  letter = "B";
  }  
-  else if (grade >= 80.0 ) {
+  else if (grade >= 80.0) {
  letter = "B-";
  }  
-  else if (grade >= 77.0 ) {
+  else if (grade >= 77.0) {
  letter = "C+";
  }  
-  else if (grade >= 70.0 ) {
+  else if (grade >= 70.0) {
  letter = "C";
  }  
-  else if (grade >= 60.0 ) {
+  else if (grade >= 60.0) {
  letter = "D";
  }   
-  else if (grade < 60.0 ) {
+  else if (grade < 60.0) {
  letter = "F";
  }  
   
