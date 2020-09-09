@@ -16,41 +16,41 @@
 int main(void) {
 
  char *letter = "F";
- char *x = readline("Enter your CMPSC 131 grade: ");
- double grade = atof(x);
+ char *a = readline("Enter your CMPSC 131 grade:");
+ double grade = atof(a);
  if (grade >= 93.0 ) {
  letter = "A";
   }
  
  else if (grade >= 90.0 ) {
- letter = "A-";
+ letter = "A-.";
  }  
   else if (grade >= 87.0 ) {
- letter = "B+";
+ letter = "B+.";
  }  
   else if (grade >= 83.0 ) {
- letter = "B";
+ letter = "B.";
  }  
   else if (grade >= 80.0 ) {
- letter = "B-";
+ letter = "B-.";
  }  
   else if (grade >= 77.0 ) {
- letter = "C+";
+ letter = "C+.";
  }  
   else if (grade >= 70.0 ) {
- letter = "C";
+ letter = "C.";
  }  
   else if (grade >= 60.0 ) {
- letter = "D";
+ letter = "D.";
  }   
   else if (grade < 60.0 ) {
- letter = "F";
+ letter = "F.";
  }  
+  
  
  
  
- 
- printf("Your letter grade for CMPSC 131 is %s",letter);
+ printf("Your letter grade for CMPSC 131 is %s.",letter);
  return 0;
 
 
